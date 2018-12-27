@@ -1,7 +1,7 @@
 spring:
   mvc:
     view:
-      prefix: /
+      prefix: /templates/
       suffix: .html
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
@@ -11,3 +11,5 @@ spring:
 logging:
   level: 
     mapper: debug
+
+      
